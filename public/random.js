@@ -7,8 +7,7 @@ function clearAll() {
 }
 
 function generateRandomNumber() {
-    return 9;
-    // return Math.floor(Math.random() * 10);
+    return Math.floor(Math.random() * 10);
 }
 
 function renderNumber(text) {
@@ -22,3 +21,4 @@ function getAppVersion() {
 function init() {
     getAppVersion();
 }
+module.exports = generateRandomNumber;
